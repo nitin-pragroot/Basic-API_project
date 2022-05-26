@@ -1,0 +1,23 @@
+get
+post:
+{"fname": "Mohit", "lname": "Saini", "rollno": 1022, "addr": "Panchkula"}
+http://127.0.0.1:8000/studentdetail
+path('studentdetail',views.studentdetail.as_view()),
+
+put:
+delete:
+path('studentdetail/<int:id>',views.studentdetail.as_view()),
+http://127.0.0.1:8000/studentdetail/1011
+
+
+{"fname": "Mohit", "lname": "Saini", "rollno": 1011, "addr": "Panchkula"}
+
+
+full page postback
+HttpRequest
+HttpResponse
+
+
+partial page request/part of data update
+XMLHttpRequest
+XMLHttpResponse
